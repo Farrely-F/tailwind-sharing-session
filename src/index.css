@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: 235 40 6;
+  }
+
+  body {
+    @apply text-white bg-primary;
+  }
+}
+
+@layer utilities {
+  .auto-container {
+    @apply 2xl:max-w-7xl mx-auto;
+  }
+}
