@@ -16,4 +16,12 @@
   .auto-container {
     @apply 2xl:max-w-7xl mx-auto;
   }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
